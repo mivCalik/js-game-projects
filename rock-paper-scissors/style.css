@@ -39,14 +39,14 @@ button{
 
 .img-vs{
   margin: auto;
-  padding: 25px;
-  width: 750px;
-  height: 200px;
+  padding: 1.5rem;
+  width: 45rem;
+  height: 12.5rem;
   display: flex;
 }
 .img-vs img{
-  height: 150px;
-  width: 270px;
+  height: 10rem;
+  width: 15rem;
   margin: auto;
   background-color: white;
 }
@@ -81,18 +81,18 @@ button{
 
 .trophy_1{
   position: absolute;
-  width: 120px;
-  height: 160px;
-  top:250px;
+  width: 7.5rem;
+  height: 10rem;
+  top:15rem;
   left:60px;
   transform: rotate(-30deg);
 }
 
 .trophy_2{
   position: absolute;
-  width: 120px;
-  height: 160px;
-  top: 400px;
+  width: 7.5rem;
+  height: 10rem;
+  top: 20rem;
   right: 70px;
   transform: rotate(15deg);
 }
