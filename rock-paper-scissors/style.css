@@ -1,0 +1,98 @@
+body{
+  background-color: #0F0F0F;
+  color: #00FF00;
+  position: relative;
+}
+p{
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+span{
+  color: white;
+}
+button{
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  border: 2px solid #0F0F0F;
+  border-radius: 8px;
+}
+
+.beautify{
+  width: 60%;
+  margin: 6rem auto;
+}
+.welcome{
+  margin: 2rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+}
+.game{
+  padding-top: 3rem;
+}
+
+#your_move{
+  display: inline;
+}
+
+.img-vs{
+  margin: auto;
+  padding: 25px;
+  width: 750px;
+  height: 200px;
+  display: flex;
+}
+.img-vs img{
+  height: 150px;
+  width: 270px;
+  margin: auto;
+  background-color: white;
+}
+.img-vs p{display: inline; margin-top:100px;}
+
+#rock-btn{
+  background-color: #EBA54A;
+}
+#paper-btn{
+  background-color: #53ACEB;
+}
+#scissors-btn{
+  background-color: #EB8DE3;
+}
+
+#rock-btn:hover{
+  background-color: #0F0F0F;
+  color:#EBA54A;
+  border-color: #EBA54A;
+}
+#paper-btn:hover{
+  background-color: #0F0F0F;
+  color:#53ACEB;
+  border-color: #53ACEB;
+}
+#scissors-btn:hover{
+  background-color: #0F0F0F;
+  color:#EB8DE3;
+  border-color: #EB8DE3;
+}
+
+
+.trophy_1{
+  position: absolute;
+  width: 120px;
+  height: 160px;
+  top:250px;
+  left:60px;
+  transform: rotate(-30deg);
+}
+
+.trophy_2{
+  position: absolute;
+  width: 120px;
+  height: 160px;
+  top: 400px;
+  right: 70px;
+  transform: rotate(15deg);
+}

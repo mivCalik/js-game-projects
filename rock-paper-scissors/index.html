@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <img src="img/vecteezy_winner-trophy-in-flat-style.png" class="trophy_1">
+    <img src="img/vecteezy_winner-trophy-in-flat-style.png" class="trophy_2">
+
+    <div class="beautify">
+
+      <h1 class="welcome">Ultimate</h1>
+      <h1 class="welcome">Rock-Paper-Scissors</h1>
+
+      <div class="game">
+
+        <p id="your_move">Pick your move: </p>
+        <span id="buttoneer">
+          <!-- buttoneer = fun name for box of buttons :) -->
+          <button id="rock-btn">rock</button>
+          <button id="paper-btn">paper</button>
+          <button id="scissors-btn">scissors</button>
+        </span>
+
+        <p>Computer's choice: <span id= "computer_choice"></span></p>
+
+        <div class="img-vs">
+          <img class = "left" src="" >
+          <p class="welcome">vs.</p>
+          <img class="right" src="" >
+        </div>
+
+        <p>Result: <span id="result"></span></p>
+        <p>Score: <span id="score"></span></p>
+
+
+      </div>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
