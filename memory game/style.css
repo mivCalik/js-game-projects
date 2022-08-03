@@ -1,0 +1,7 @@
+body{width: 70%; margin:auto;}
+
+h1{color:darkblue;}
+h2{color:darkred;}
+
+#grid{width: 400px;margin: auto;display: flex;
+flex-wrap: wrap;}

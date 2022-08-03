@@ -1,0 +1,40 @@
+body{
+  width: 70%;
+  padding-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgray;
+  margin: auto;
+}
+h1{
+  font-family: 'Press Start 2P', cursive;
+  color: darkred;
+  font-size: 3.5rem;
+
+}
+button{
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  border: 1px darkblue solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: center;
+}
+button:disabled{opacity: 0.8;}
+
+.grid{
+  width: 630px;
+  height: 630px;
+  border:orange 5px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+.square{
+  width: 200px;
+  height: 200px;
+  border: orange 5px solid;
+
+}
+.mole{
+  background-image: url("mole.jpg");
+}
